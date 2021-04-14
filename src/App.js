@@ -51,6 +51,11 @@ function App() {
     return image.replace(/width=\"[0-9.*]\"/g, "width=\"140\"").replace(/height=\"[0-9.*]\"/g, "height=\"140\"")
   }
 
+  function copyTextArea() {
+    document.getElementById("result").select()
+    document.execCommand("copy");
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -79,6 +84,9 @@ function App() {
       </div>
       <div className="container">
         出力：<textarea cols="50" rows="30" id="result"></textarea>
+      </div>
+      <div className="container">
+        <button onClick={copyTextArea}>コピー</button>
       </div>
     </div>
   );
