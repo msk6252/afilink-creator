@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/afilink-creator/static/css/main.97eb6988.chunk.css",
-    "main.js": "/afilink-creator/static/js/main.b7adb69b.chunk.js",
-    "main.js.map": "/afilink-creator/static/js/main.b7adb69b.chunk.js.map",
+    "main.js": "/afilink-creator/static/js/main.a9c9d7d5.chunk.js",
+    "main.js.map": "/afilink-creator/static/js/main.a9c9d7d5.chunk.js.map",
     "runtime-main.js": "/afilink-creator/static/js/runtime-main.bfa1f5da.js",
     "runtime-main.js.map": "/afilink-creator/static/js/runtime-main.bfa1f5da.js.map",
     "static/js/2.4d5d12c0.chunk.js": "/afilink-creator/static/js/2.4d5d12c0.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.bfa1f5da.js",
     "static/js/2.4d5d12c0.chunk.js",
     "static/css/main.97eb6988.chunk.css",
-    "static/js/main.b7adb69b.chunk.js"
+    "static/js/main.a9c9d7d5.chunk.js"
   ]
 }
