@@ -80,13 +80,11 @@ function App() {
         Yahoo：<input id="yahoo"></input>
       </div>
       <div className="container">
-        <button onClick={createLink}>リンク生成</button>
-      </div>
-      <div className="container">
-        出力：<textarea cols="50" rows="30" id="result"></textarea>
-      </div>
-      <div className="container">
+        <button onClick={createLink}>リンク生成</button>　
         <button onClick={copyTextArea}>コピー</button>
+      </div>
+      <div className="container">
+        出力：<br /><textarea cols="50" rows="30" id="result"></textarea>
       </div>
     </div>
   );
